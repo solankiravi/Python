@@ -1,6 +1,5 @@
-#Map() is a built-in Python function used to apply a function 
-# to a sequence of elements like a list or dictionary.
-
+# Make an iterator that computes the function using arguments 
+# from each of the iterables. Stops when the shortest iterable is exhausted
 def square_it_func(a):
     return a * a
 
