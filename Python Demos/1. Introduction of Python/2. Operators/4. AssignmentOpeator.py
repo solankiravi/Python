@@ -1,6 +1,6 @@
-firstNum = 3;
+firstNum = 3
 
-tempVal = firstNum;
+tempVal = firstNum
 #Assignment
 print("First Number is assigned with value ",tempVal)
 

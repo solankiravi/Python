@@ -1,5 +1,5 @@
-firstNum = True;
-secondNum = False;
+firstNum = True
+secondNum = False
 
 #Logical And - True if both condition is true
 print(firstNum and secondNum)

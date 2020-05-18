@@ -1,5 +1,5 @@
-firstNum = 3;
-secondNum = 5;
+firstNum = 3
+secondNum = 5
 
 #Is Equal To
 print("Is Equal To :",firstNum == secondNum)
