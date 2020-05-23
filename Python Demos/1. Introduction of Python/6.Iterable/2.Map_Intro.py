@@ -2,8 +2,10 @@
 
 a = ['abc','defxy','ghijklmn']
 
-#map takes first argument as function and second argument is iterable on which 
-#it runs function one by one
+'''
+map takes first argument as function and second argument is iterable on which it runs function one by one
+                    map(function_to_apply, list_of_inputs)
+'''
 print(list(map(len,a)))
 
 def change_upper_case(s):
