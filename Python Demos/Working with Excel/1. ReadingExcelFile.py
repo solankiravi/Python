@@ -1,7 +1,7 @@
 #Import xlrd
 import xlrd
 #file url on which you will perform operation
-locOfFile = ("C:\\Users\\Ravi\\Desktop\\TestDeocument.xlsx");
+locOfFile = ("C:\\Users\\Ravi\\Desktop\\TestDeocument.xlsx")
 
 #open the file
 workbook = xlrd.open_workbook(locOfFile)
