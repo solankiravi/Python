@@ -16,7 +16,10 @@ got a refund of 200$. Make a correction to your monthly expense list
 based on this
 '''
 
-# Approach 1 - Nested List
+# NOTE: Use Dictionary for better performance.
+
+# Approach 1 - Nested List : 
+
 expense_list=[
     ['January',2200],
     ['February',2350],

@@ -1,3 +1,8 @@
+'''
+
+https://github.com/codebasics/data-structures-algorithms-python/blob/master/data_structures/3_LinkedList/3_linked_list_exercise.md
+
+'''
 class Node:
     def __init__(self,data=None,next=None) -> None:
         self.data=data
