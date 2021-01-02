@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block body %}
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <!-- TODO: Fetch posts from DB -->
+        {% for post in posts %}
+        <div class="row">
+        <a href="/post/{{ post.slug }}">
+          {{ post.title}}
+        </a>  
+         on {{ post.post_date }}
+        </div>
+       
+      {% endfor %}
+       
+        <hr>
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ {% endblock %} 

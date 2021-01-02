@@ -1,0 +1,11 @@
+{
+    "params":{
+        "website_name":"Code Tips",
+        "website_sub_headding":"Blog loved by Programmers",
+        "debug":"False",
+        "host": "localhost",
+        "port":"5000",
+        "local_db_url":"sqlite:///mydb.sqlite",
+        "prod_db_uri":"postgresql://postgres:admin@localhost:5432/Blog_App"
+    }
+}
