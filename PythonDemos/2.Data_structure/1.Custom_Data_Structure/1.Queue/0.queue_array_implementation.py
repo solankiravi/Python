@@ -38,6 +38,4 @@ obj.enqueue(20)
 obj.enqueue(40)
 print(obj.data)
 obj.dequeue()
-print(obj.data)
-
-        
+print(obj.data)        
