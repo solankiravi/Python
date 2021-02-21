@@ -3,10 +3,10 @@ floatVariable = 10.10
 stringVariable="Ravi"
 booleanValue = True
 
-print(intVariable)
-print(floatVariable)
-print(stringVariable)
-print(booleanValue)
+print(type(intVariable))
+print(type(floatVariable))
+print(type(stringVariable))
+print(type(booleanValue))
 
 firstVal = secondVal = 30
 thirdVal, forthVal = 50,60

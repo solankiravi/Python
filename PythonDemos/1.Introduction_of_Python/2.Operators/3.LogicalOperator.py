@@ -1,14 +1,14 @@
-firstNum = True
-secondNum = False
+firstCondition = True
+secondCondition = False
 
 #Logical And - True if both condition is true
-print(firstNum and secondNum)
+print(firstCondition and secondCondition)
 
 #Logical or - true if any condition is true
-print(firstNum or secondNum)
+print(firstCondition or secondCondition)
 
 #Logical Not - used to reverse the state.
-print(not(secondNum))
+print(not(secondCondition))
 
 #Combination of logical and & logical or & logical not
-print( not((firstNum and secondNum) or firstNum))
+print( not((firstCondition and secondCondition) or firstCondition))

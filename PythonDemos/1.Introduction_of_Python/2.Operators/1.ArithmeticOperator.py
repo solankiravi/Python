@@ -1,5 +1,5 @@
-firstNum = 3;
-secondNum = 5;
+firstNum = 13
+secondNum = 5
 
 #Addition
 print("Addition :",firstNum + secondNum)
@@ -19,5 +19,9 @@ print("Floor Division",firstNum // secondNum)
 #Remainder
 print("Remainder",firstNum % secondNum)
 
-#Power
-print("Power",firstNum ** secondNum)
+#Exponents
+print("Exponent",firstNum ** secondNum)
+
+import math
+
+

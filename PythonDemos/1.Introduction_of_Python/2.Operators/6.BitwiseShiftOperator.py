@@ -1,4 +1,4 @@
-tempVal = 3
+tempVal = 10
 #Right Shift operator : shifts the bits to the right by the specified number of places
 print("Right Shift operator")
 print(tempVal >> 1)

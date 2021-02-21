@@ -1,5 +1,5 @@
-firstNum = thirdNum = 1 
-secondNum = fourthNum = 0
+firstNum = thirdNum = 13 
+secondNum = fourthNum = 5
 
 #Bitwise And : It is like multiplication
 print("Bitwise And")
