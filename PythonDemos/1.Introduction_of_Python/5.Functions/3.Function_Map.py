@@ -1,5 +1,6 @@
 # Make an iterator that computes the function using arguments 
 # from each of the iterables. Stops when the shortest iterable is exhausted
+'''
 def square_it_func(a):
     return a * a
 
@@ -11,3 +12,8 @@ def multiply_fun(a,b):
 
 x = map(multiply_fun,[1,2,3],[4,5,6])
 print(x) # prints '[4,10,18]'
+
+
+'''
+mul = map(lambda a : a * 3,[1,2,3])
+print(mul)
