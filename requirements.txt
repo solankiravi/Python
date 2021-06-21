@@ -10,7 +10,7 @@ click-didyoumean==0.0.3
 click-plugins==1.1.1
 click-repl==0.1.6
 cycler==0.10.0
-fastapi==0.61.2
+fastapi==0.65.2
 Flask==1.1.2
 idna==2.10
 itsdangerous==1.1.0
