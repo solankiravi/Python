@@ -1,0 +1,29 @@
+
+#A regular expression (sometimes called a rational expression) is a 
+# sequence of characters that define a search pattern, 
+# mainly for use in pattern matching with strings, 
+# or string matching, i.e. “find and replace”-like operations.(Wikipedia).
+"""
+0. . (dot) is wildcard character
+
+1. Repeaters
+     * -  0 or more
+     + - 1 or more
+     ? - 0 or 1
+2. Curly braces
+    {n} - exactly n 
+    {m,n} - betweem m and n
+    {n,} - more than n
+3. prefix-postfix
+    ^ (Caret) - Beginning
+    $ (dollar) - Ending
+4. Escape Symbol : \ - used for metacharacters
+5. Characters
+    /s : matches any whitespace characters such as space and tab
+    /S : matches any non-whitespace characters
+    /d : matches any digit character
+    /D : matches any non-digit characters
+    /w : matches any word character (basically alpha-numeric)
+    /W : matches any non-word character
+    /b : matches any word boundary (this would include spaces, dashes, commas, semi-colons, etc)
+"""
