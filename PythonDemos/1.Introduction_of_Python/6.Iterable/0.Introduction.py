@@ -20,6 +20,7 @@ for x in fibonacci(5):
 def get_first_three_number():
     for i in range(3):
         yield i
+
 gen=get_first_three_number()
 print(next(gen))
 print(next(gen))
