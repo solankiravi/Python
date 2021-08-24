@@ -8,7 +8,7 @@ data = {'Name':['Ravi','Vikash'], 'Age':[23,20]}
 df = pd.DataFrame(data)
 print(df)
 # 3. Data frame using reading an excel file
-fileurl = r'E:\FL_insurance_sample.csv'
+fileurl = r'E:\Coding\Python\Python-Practice\PythonDemos\7.Pandas\Resource\FL_insurance_sample.csv'
 data = pd.read_csv(fileurl, index_col ="policyID")
 df = pd.DataFrame(data)
 print(df)
