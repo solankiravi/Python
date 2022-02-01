@@ -1,19 +1,14 @@
-"""
-1. consider first item as minium one
-2. use two pointer approach
-3. in the nested loop , get the minimum element repeatedily
-4. finally, swap the elements 
-"""
-
-arr=[4,5,1,2,3]
+arr=[5,4,1,2,3]
 print(arr)
-for i in range(len(arr)):
-    min_indx = i
 
-    for j in range(i+1, len(arr)):
-        if arr[min_indx] > arr[j]:
-            min_indx = j
-    
-    arr[i], arr[min_indx] = arr[min_indx], arr[i]
+def selection_sort(arr):
+    n = len(arr)
+    for out_ind in range(n) :
+        min_ind=out_ind
+        for inner_ind in range(out_ind+1,n):
+            if arr[min_ind] > arr[inner_ind]:
+                min_ind = inner_ind
+        arr[out_ind], arr[min_ind] = arr[min_ind], arr[out_ind]
+    return arr
 
-print(arr)
+print(selection_sort(arr))
