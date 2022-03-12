@@ -22,7 +22,7 @@ MarkupSafe==1.1.1
 matplotlib==3.3.3
 numpy==1.19.4
 pandas==1.1.4
-Pillow==8.0.1
+Pillow==9.0.1
 prompt-toolkit==3.0.8
 pydantic==1.7.2
 pyparsing==2.4.7
