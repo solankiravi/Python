@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent jenkins-agent
     stages {
         stage("Hello"){
             steps {
