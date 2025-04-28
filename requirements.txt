@@ -14,7 +14,7 @@ fastapi==0.61.2
 Flask==1.1.2
 idna==2.10
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 joblib==0.17.0
 kiwisolver==1.3.1
 kombu==5.0.2
